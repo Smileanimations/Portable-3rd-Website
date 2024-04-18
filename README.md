@@ -2,6 +2,7 @@
 
 
 !! USE APACHE AND MYSQL TO ACTUALLY MAKE THIS SITE FUNCTION !!
+
 !! ALSO MAKE SURE TO IMPORT THE .SQL FILE !!
 
 A school project turned passion project.
