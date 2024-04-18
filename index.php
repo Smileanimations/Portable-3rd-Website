@@ -47,7 +47,7 @@
             <img src="images/monsters/Zinogre.webp" alt="" width="82%">
         </div>
         <div class="col"> 
-            <video src="images/video/PSP『モンスターハンターポータブル ３rd』 オープニングムービー.mp4" autoplay muted class="rounded-4" ></video>
+            <video src="images/video/intro.mp4" autoplay muted class="rounded-4" ></video>
         </div>
         <div width="450px" class="col text-center">
             <img src="images/monsters/Amatsu.webp" alt="" width=400px class="mr-3">
