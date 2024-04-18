@@ -1,0 +1,29 @@
+#logo {
+    transition: 0.3s;
+    width: 20%;
+}
+
+#logo:hover {
+    width: 21%;
+}
+
+.icons {
+    color: black;
+    text-decoration: none;
+    width: 25%;
+    transition: 0.3s;
+}
+
+.icons:hover {
+    width: 27%;
+}
+
+.locales {
+    transition: 0.5s;
+    width: 400px;
+}
+
+.locales:hover {
+    width: 420px;
+    height: 278px;
+}
