@@ -1,15 +1,15 @@
 <?php
 
 $id = $_GET['id'] ?? "asc";
-$username = 'bit_academy';
+$username = 'root';
 $servername = 'localhost';
-$password = 'bozo';
 try {
-    $connection = new PDO("mysql:dbname=monster_hunter_p3rd; host=$servername", $username, $password);
+    $connection = new PDO("mysql:dbname=monster_hunter_p3rd; host=$servername", $username);
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->GetMessage();
 }
+
 
 
 $sqllocales = "SELECT * FROM locales WHERE id=$id";
