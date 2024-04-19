@@ -41,7 +41,7 @@ $monsters = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
 <nav class="navbar navbar-expand-lg border-bottom border-2 border-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php"><img src="images/navbarlogo.png" alt="" width="80%"></a>
+    <a class="navbar-brand" href="index.php"><img src="images/logo/navbarlogo-MHP3.png" alt="" width="80%"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -97,7 +97,7 @@ $monsters = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 if (in_array($monster['name'], $local)) { ?>
                                     <div class="col text-center mb-3">
                                         <h4><?php echo $locale['name'] ?></h4>
-                                        <a href="localedetails.php?id=<?=$locale['id']?>"><img src="Images/Locales/<?php echo $locale['name']?>.webp" alt="" width="400px" height="258px" class="locales"></a>     
+                                        <a href="localedetails.php?id=<?=$locale['id']?>"><img src="images/locales/<?php echo $locale['name']?>.webp" alt="" width="400px" height="258px" class="locales"></a>     
                                     </div>               
                         <?php }} ?>
                     </div>            

@@ -51,7 +51,7 @@ $locales = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
 <nav class="navbar navbar-expand-lg border-bottom border-2 border-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php"><img src="images/navbarlogo.png" alt="" width="80%"></a>
+    <a class="navbar-brand" href="index.php"><img src="images/logo/navbarlogo-MHP3.png" alt="" width="80%"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -81,7 +81,7 @@ $locales = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <img src="images/locales/<?= $locale['name']?>.webp" alt="" width="600px">
                     <div class="float-end float-top text-center mb-5">
                         <h2>Map</h2>
-                        <img src="Images/Locale Icons/<?= $locale['name']?> Map.webp" alt="No Map Available" width="300px">
+                        <img src="images/locale icons/<?= $locale['name']?> Map.webp" alt="No Map Available" width="300px">
                     </div>
                 </div>
             </div>

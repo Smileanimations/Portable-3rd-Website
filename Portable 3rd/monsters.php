@@ -42,7 +42,7 @@ $monsters = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body style="background-image: url(Images/zinogre-background.jpg);">
 
 <div class="text-center">
-    <a href="index.php"><img src="Images/logo.png" alt="" id="logo"></a>
+    <a href="index.php"><img src="images/logo/logo-MHP3.png" alt="" id="logo"></a>
 </div>
 <div class="">
     <div class="container text-center" style="background-color:white;">
@@ -52,7 +52,7 @@ $monsters = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 if (!$monster['is_small_monster'] == 1) {?>
                 <div class="col-sm-3">
                     <div class="p-2">
-                        <a href="details.php?id=<?=$monster['id']?>"><img src="Images/Icons/<?= $monster['name']?>.webp" alt="" class="icons"></a><br>
+                        <a href="details.php?id=<?=$monster['id']?>"><img src="images/icons/<?= $monster['name']?>.webp" alt="" class="icons"></a><br>
                        <?php echo $monster['name']?>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ $monsters = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     if ($monster['is_small_monster'] == 1) {?>
                 <div class="col-sm-3">
                     <div class="p-2">
-                        <a href="details.php?id=<?=$monster['id']?>"><img src="Images/Icons/<?= $monster['name']?>" alt="" class="icons"></a><br>
+                        <a href="details.php?id=<?=$monster['id']?>"><img src="images/icons/<?= $monster['name']?>.webp" alt="" class="icons"></a><br>
                         <?php echo $monster['name'] ?>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ $monsters = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </div>
 <div class="text-center">
     <footer>
-        <img src="Images/capcom.png" alt="" style="width: 15%;">
+        <img src="images/capcom.png" alt="" style="width: 15%;">
     </footer>
 </div>
 </body>

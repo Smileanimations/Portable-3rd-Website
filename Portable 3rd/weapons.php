@@ -54,7 +54,7 @@ $weapons = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
 <nav class="navbar navbar-expand-lg border-bottom border-2 border-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php"><img src="images/navbarlogo.png" alt="" width="80%"></a>
+    <a class="navbar-brand" href="index.php"><img src="images/logo/navbarlogo-MHP3.png" alt="" width="80%"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -83,7 +83,7 @@ $weapons = $stmt->fetchAll(PDO::FETCH_ASSOC);
         if (!isset($_POST['_submit'])){?>
         <div class="col mx-5 mt-4">
             <form method="post" action="">
-            <button name="<?= $id = $weapon['id']?>" value="<?= $weapon['id']?>" type="submit"><img src="Images/Weapon icons/<?= $weapon['name']?>.png" alt="" width="95px" class="icons"></button>
+            <button name="<?= $id = $weapon['id']?>" value="<?= $weapon['id']?>" type="submit"><img src="images/weapon icons/<?= $weapon['name']?>.png" alt="" width="95px" class="icons"></button>
             <p><?= $weapon['name']?></p>
             </form>
         </div>   
