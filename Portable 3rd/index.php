@@ -89,5 +89,8 @@
             There are also 2 quest maidens: one dedicated for Low Rank Hub quests and the other dedicated for High Rank Hub quests.  
         </p>
     </div>
+    <div>
+        
+    </div>
 </body>
 </html>
