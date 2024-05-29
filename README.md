@@ -13,4 +13,3 @@ I am probably going to make small edits on this site, but not all that much so y
 Pictures and some descriptions are from the [https://monsterhunter.fandom.com/wiki/Monster_Hunter_Wiki] their gallery was very helpful and saved me a lot of time.
 
 (small chance nothing works becauses i do not know github)
-
